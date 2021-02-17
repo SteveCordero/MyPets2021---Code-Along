@@ -15,6 +15,15 @@ public abstract class PetParent
     this.friendliness = friendliness;
   }
 
+  public PetParent()
+  {
+    this.name = "";
+    this.hasHair = false;
+    this.color = "";
+    this.cuteness = 0;
+    this.friendliness = 0.0;
+  }
+
   //getters and setters
   public String getName()
   {

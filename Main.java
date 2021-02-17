@@ -12,12 +12,22 @@ public  class Main
 
     PetParent clifford = new Axolotl("Clifford", false, "purple", 10, 0.01, false);
 
-    Owner emiliano = new Owner("Emiliano");
-    System.out.println(emiliano.toString());
+    PetParent blob;
+    blob = matthew;//this is assigning the alias 
+    //blob = piper; //reassigned the alias
+    matthew.setRegenerate(true);
 
-    System.out.println(emiliano.feed(piper));
-    System.out.println(emiliano.feed(matthew));
-    System.out.println(emiliano.feed(vader));
+
+
+    System.out.println(blob.toString());
+    System.out.println(blob.dailyRoutine());
+
+    Owner emiliano = new Owner("Emiliano");
+    // System.out.println(emiliano.toString());
+
+    // System.out.println(emiliano.feed(piper));
+    // System.out.println(emiliano.feed(matthew));
+    // System.out.println(emiliano.feed(vader));
 
     // System.out.println(clifford.dailyRoutine());
     // blankPet.setName("Fluffy");
